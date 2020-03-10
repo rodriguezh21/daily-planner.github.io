@@ -1,0 +1,50 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #d5dcdc;
+
+}
+.event {
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  color: coral;
+  font-weight: bold;
+  font-family: fantasy;
+}
+.slot {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #1ba3c5;
+  color: lightgray;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  font-family: cursive;
+
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  
+}
+
+.saveBtn:hover {
+  font-size: 25px;
+  transition: all .1s ease-in-out;
+  
+}
