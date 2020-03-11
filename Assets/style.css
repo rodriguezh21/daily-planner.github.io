@@ -48,3 +48,7 @@ body {
   transition: all .1s ease-in-out;
   
 }
+#currentDay {
+  color: aqua;
+  font-weight: bold;
+}

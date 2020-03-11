@@ -1,7 +1,7 @@
 $(document).ready(); {
     
     // Displays the Current Day
-    $("#currentDay").text('Today is ' + moment().format('dddd'));
+    $("#currentDay").text('Today is ' + moment().format('MMMM Do YYYY, h:mm:ss a'));
 
     // Gets the input value and stores it
         $('.saveBtn').on('click', function(e){
