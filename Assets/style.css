@@ -13,10 +13,15 @@ body {
   color: coral;
   font-weight: bold;
   font-family: fantasy;
+  border: 2px solid ;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
 }
 .slot {
   font-weight: bold;
   font-size: 20px;
+  
 }
 
 .jumbotron {
@@ -36,19 +41,32 @@ body {
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
-  
+  box-shadow: none;  
 }
 
 .saveBtn:hover {
   font-size: 25px;
-  transition: all .1s ease-in-out;
+  outline:none;
   
 }
 #currentDay {
   color: aqua;
   font-weight: bold;
+}
+
+.past {
+  background-color: #929292;
+  color: coral;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
 }
