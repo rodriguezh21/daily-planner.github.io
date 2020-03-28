@@ -10,7 +10,7 @@ body {
   width: 80%;
   text-align: center;
   padding: 10px;
-  color: coral;
+  color: white;
   font-weight: bold;
   font-family: fantasy;
   border: 2px solid ;
@@ -58,7 +58,7 @@ body {
 
 .past {
   background-color: #929292;
-  color: coral;
+  color: white;
 }
 
 .present {
